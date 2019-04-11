@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting started
+title: How to connect a device?
 permalink: /:path/
 sort_idx: 10
 ---
