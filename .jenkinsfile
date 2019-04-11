@@ -33,7 +33,7 @@ pipeline {
 
         script {
           container ('builder') {
-            docs.publish(env.SERVICE_NAME_UPPER, (env.BRANCH_NAME == "master") ? "current" : env.TAG)
+            docs.publish(env.SERVICE_NAME, (env.BRANCH_NAME == "master") ? "current" : env.TAG)
           }
         }
       }
