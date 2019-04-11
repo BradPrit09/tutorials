@@ -48,22 +48,22 @@ In this demo scenario we use only one **extension**:
 
 # Playbook
 
-1. Go to Web Dashboard and configure (if it is not already configured) [Endpoint List widget]({{docs_url}}WD/docs/current/Widgets/Ep-list/).
+**1**. Go to Web Dashboard and configure (if it is not already configured) [Endpoint List widget]({{docs_url}}WD/docs/current/Widgets/Ep-list/).
 Add `meterDescription` field to an endpoint creation form. We will fill it during endpoint record creation.
 
-<span align="center">
+<div align="center">
   <iframe width="640" height="385" src="https://www.youtube.com/embed/qMeLZa0emws" frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</span>
+</div>
 
-2. Create endpoint record and get an endpoint token with the previously configured widget:
+**2**. Create endpoint record and get an endpoint token with the previously configured widget:
 
-<span align="center">
+<div align="center">
   <iframe width="640" height="385" src="https://www.youtube.com/embed/du7tBJY72xM" frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</span>
+</div>
 
-3. Run [client.py](https://github.com/kaaproject/tutorials/blob/master/doc/how-to-connect-device/attach/code/client.py) passing endpoint token, platform host and port as its argument:
+**3**. Run [client.py](https://github.com/kaaproject/tutorials/blob/master/doc/how-to-connect-device/attach/code/client.py) passing endpoint token, platform host and port as its argument:
 
 ```
 python -t myToken -h {host} -p {port} client.py
@@ -78,12 +78,12 @@ INFO: Disconnecting from server at {host}:{port}.
 INFO: Successfully disconnected
 ```
 
-4. Go to Web Dashboard and configure Endpoint List widget with metadata columns:
+**4**. Go to Web Dashboard and configure Endpoint List widget with metadata columns:
 
-<span align="center">
+<div align="center">
   <iframe width="640" height="385" src="https://www.youtube.com/embed/ozMnDBzknHQ" frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</span>
+</div>
 
 Now our device is listed in Endpoint List widget along with its metadata:
 
