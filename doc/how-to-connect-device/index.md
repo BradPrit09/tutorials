@@ -52,14 +52,14 @@ In this demo scenario we use only one **extension**:
 Add `meterDescription` field to an endpoint creation form. We will fill it during endpoint record creation.
 
 <div align="center">
-  <iframe width="640" height="385" src="https://www.youtube.com/embed/qMeLZa0emws" frameborder="0" 
+  <iframe width="640" height="385" src="https://www.youtube.com/embed/qMeLZa0emws?rel=0" frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 **2**. Create endpoint record and get an endpoint token with the previously configured widget:
 
 <div align="center">
-  <iframe width="640" height="385" src="https://www.youtube.com/embed/du7tBJY72xM" frameborder="0" 
+  <iframe width="640" height="385" src="https://www.youtube.com/embed/du7tBJY72xM?rel=0" frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -81,7 +81,7 @@ INFO: Successfully disconnected
 **4**. Go to Web Dashboard and configure Endpoint List widget with metadata columns:
 
 <div align="center">
-  <iframe width="640" height="385" src="https://www.youtube.com/embed/ozMnDBzknHQ" frameborder="0" 
+  <iframe width="640" height="385" src="https://www.youtube.com/embed/ozMnDBzknHQ?rel=0" frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
