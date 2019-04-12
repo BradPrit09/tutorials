@@ -18,7 +18,7 @@ You will be able to process data from endpoinds in your own way and then send th
 # Guide overview
 ![Pods status](attach/img/custom-service.svg)
 Kaa IoT Platform microservices provide NATS and REST API interfaces for inter-service comunication. Read more about [Kaa IoT Platform architecture]({{docs_url}}DOC/docs/current/Architecture-overview/).
-We'll use the example of NATS subscriber and publisher that can consume data from [endpoints](https://github.com/kaaproject/kaa-rfcs/blob/master/0001/README.md#language) and write to [EPTS]({{docs_url}}EPTS).
+We'll use the example of NATS subscriber and publisher that can consume data from [endpoints]({{rfc_url}}0001/README.md#language) and write to [EPTS]({{docs_url}}EPTS).
 The example is written in JavaScript for Node.JS.
 
 # Prerequisites
@@ -55,7 +55,7 @@ node Nats-example.js
 ```
 
 # What's going on in the code?
-[Avro schema](https://github.com/kaaproject/kaa-rfcs/blob/master/0014/README.md) for TSTP protocol:
+[Avro schema]({{rfc_url}}0014/README.md) for TSTP protocol:
 This schema is from [schema.js](https://github.com/kaaproject/tutorials/blob/master/custom-microservice/schema.js) in the sample.
 ```javascript
 const schema = avroSchema;
