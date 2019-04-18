@@ -13,7 +13,6 @@ sort_idx: 20
 This page will help you add your custom microservice to the Kaa IoT Platform.
 You will be able to process data from endpoinds in your own way and then send the processed data back to the platform.
 
-*Estimated completion time:* 15 minutes
 
 # Guide overview
 ![Pods status](attach/img/custom-service.svg)

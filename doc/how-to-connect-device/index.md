@@ -13,13 +13,11 @@ sort_idx: 10
 In this tutorial we will look at how to connect a simulated device to the Kaa platform using the default, MQTT-based protocol.
 You will learn how to create a digital twin of your device, connect it, submit some metadata attributes, and view them in the Kaa web interface.
 
-*Estimated completion time:* 15 minutes
-
 
 # Overview
 
 We will simulate a smart energy scenario.
-Our [endpoint]({{rfc_url}}0001/README.md#language) will act as a smart meter and report its model and MAC address to the Kaa platform.
+Our [endpoint]({{docs_url}}DOC/docs/current/Kaa-concepts/#endpoints) will act as a smart meter and report its model and MAC address to the Kaa platform.
 Also, we will configure an [Endpoint List widget]({{docs_url}}WD/docs/current/Widgets/Ep-list/) on the [Web Dashboard]({{docs_url}}WD) to display newly connected endpoint with its reported metadata.
 
 ![Solution blueprint](attach/img/architecture-overview.svg)
